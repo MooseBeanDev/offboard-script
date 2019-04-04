@@ -9,9 +9,9 @@ Offboarded user last name (searches AD to display their account name so you don'
 
 AD Account/Username from the above search
 
-Select Domain by typing (1) for XXX or (2) for XXX
+Select Domain by typing (1) for XXX or (2) for XXX (Intended for multi-domain forests. Edit the script and remove this if you only need to query one domain.)
 
-Yes or No confirmation to copy over the user's U drive (it will give you its size. say no if the folder is too big.)
+Yes or No confirmation to copy over the user's network share drive (it will give you its size. say no if the folder is too big.)
 
 NOTE: THIS WILL DELETE THEIR SOURCE FOLDER FROM \\user$ but only if the directories match exactly after the copy.
 
